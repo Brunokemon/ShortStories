@@ -27,20 +27,18 @@ li {
 	margin-left: 14px;
 }
 
-a#header-logo:hover{
-	text-decoration: none;
+#header-logo:hover{
+	cursor: default;
 }
 
 .header-category{
 	float: left;
-	text-decoration: none;
 	margin-top: 12px;
 	margin-left: 21px;
 }
 
 .header-submission{
 	float: right;
-	text-decoration: none;
 	margin-top: 12px;
 	margin-right: 21px;	
 }
@@ -48,8 +46,9 @@ a#header-logo:hover{
 a {
 	text-decoration: none;
 	color: #F8F8FF;
+	opacity: 0.7;
 }
 
 a:hover {
-	text-decoration: underline;
+	opacity: 1.0;
 }
