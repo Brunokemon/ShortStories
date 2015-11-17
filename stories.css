@@ -6,15 +6,36 @@
 	clear: both;
 }
 
+.story-title-author{
+	margin-bottom: 10px;
+	padding-left: auto;
+	text-align: center;
+}
+
 .story-title{
 	font-size: 25px;
 	font-weight: bold;
-	margin-bottom: 10px;
+	color: #000;
 }
 
 .story-author{
-	margin-top: 20px;
-	margin-right: 460px;
-	float: right;
 	color: gray;
+}
+
+.story-labels{
+	margin-top: 20px;
+	margin-left: auto;
+	color: #000;	
+}
+
+.story-content{
+	clear: both;
+}
+
+a.story-title:hover{
+	text-decoration: none;
+}
+
+a.story-author{
+	text-decoration: underline;
 }
