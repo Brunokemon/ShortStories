@@ -1,6 +1,7 @@
 .story{
 	margin-top: 50px;
-	font: 18px/26px cambria,georgia,serif;
+	margin-bottom: 64px;
+	font-family: 'Josefin Slab', georgia,serif;
 	text-align: center;
 	position: relative;
 	clear: both;
@@ -13,17 +14,22 @@
 }
 
 .story-title{
-	font-size: 25px;
+	font-size: 40px;
 	font-weight: bold;
-	color: #000;
+	color: #fff;
+	clear: both;
+	opacity: 1.0;
 }
 
 .story-author{
 	color: white;
+	clear: both;
 }
 
 .story-content{
 	clear: both;
+	font-size: 26px; 
+	opacity: 0.9;
 }
 
 a.story-title:hover{

@@ -1,9 +1,11 @@
 #description {
 	padding-top: 150px;
 	padding-left: auto;
-	font-size: 30px;
+	font-size: 40px;
 	color: #800080;
     -webkit-filter: invert(100%);
     filter: invert(100%);
     text-align: center;
+    font-family: 'Josefin Slab';
+    font-weight: 900;
 }
