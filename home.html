@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="stories.css">
 		<link href='https://fonts.googleapis.com/css?family=Josefin+Slab:400,700italic,700,600italic,600,400italic,300italic,300&subset=latin,latin-ext&effect=3d-float' rel='stylesheet' type='text/css'>
 		<link rel="shortcut icon" href="https://mention.net/v/mkzy0h/bundles/mentionweb/images/logo-favicon-large.png"/>
-
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 	</head>
 
 	<body>
@@ -129,6 +129,27 @@
 				<br>but never look up, she hates being seen.
 			</div>
 		</div>
+
+		<a href="#" class="back-to-top">Back to Top</a>
+		<script>
+			jQuery(document).ready(function() {
+				var offset = 220;
+				var duration = 500;
+				jQuery(window).scroll(function() {
+					if (jQuery(this).scrollTop() > offset) {
+						jQuery('.back-to-top').fadeIn(duration);
+					} else {
+						jQuery('.back-to-top').fadeOut(duration);
+					}
+				});
+
+				jQuery('.back-to-top').click(function(event) {
+					event.preventDefault();
+					jQuery('html, body').animate({scrollTop: 0}, duration);
+					return false;
+				})
+			});
+		</script>
 
 	</body>
 
