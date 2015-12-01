@@ -1,41 +1,41 @@
-.story{
-	margin-top: 50px;
-	margin-bottom: 64px;
-	font-family: 'Josefin Slab', georgia,serif;
-	text-align: center;
-	position: relative;
-	clear: both;
+.story {
+    margin-top: 50px;
+    margin-bottom: 64px;
+    font-family: 'Josefin Slab', georgia, serif;
+    text-align: center;
+    position: relative;
+    clear: both;
 }
 
-.story-title-author{
-	margin-bottom: 10px;
-	padding-left: auto;
-	text-align: center;
+.story-title-author {
+    margin-bottom: 10px;
+    padding-left: auto;
+    text-align: center;
 }
 
-.story-title{
-	font-size: 40px;
-	font-weight: bold;
-	color: #fff;
-	clear: both;
-	opacity: 1.0;
+.story-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    clear: both;
+    opacity: 1.0;
 }
 
-.story-author{
-	color: white;
-	clear: both;
+.story-author {
+    color: white;
+    clear: both;
 }
 
-.story-content{
-	clear: both;
-	font-size: 26px; 
-	opacity: 0.9;
+.story-content {
+    clear: both;
+    font-size: 26px;
+    opacity: 0.9;
 }
 
-a.story-title:hover{
-	text-decoration: none;
+a.story-title:hover {
+    text-decoration: none;
 }
 
-a.story-author{
-	text-decoration: underline;
+a.story-author {
+    text-decoration: underline;
 }
